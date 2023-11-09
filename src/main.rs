@@ -22,7 +22,7 @@ fn continued(num: f64) -> String {
     let mut len = 0;
 
     while (fractional_part * 10000.).floor() != 0. {
-        integer_part = reciprocajkl.floor();
+        integer_part = reciprocal.floor();
         fractional_part = reciprocal % 1.;
         reciprocal = 1. / fractional_part;
 
